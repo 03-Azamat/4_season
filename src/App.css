@@ -1,0 +1,1633 @@
+.container {
+    width: 1440px;
+}
+
+.Porque {
+    width: 600px;
+}
+
+.personIK {
+}
+
+.Loading {
+    height: 500px;
+}
+
+.loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+    margin-left: 100px;
+}
+
+.lds-spinner {
+    color: #000000;
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.lds-spinner div {
+    transform-origin: 40px 40px;
+    animation: lds-spinner 1.2s linear infinite;
+}
+
+.lds-spinner div:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 37px;
+    width: 6px;
+    height: 18px;
+    border-radius: 20%;
+    background: #2b2b2b;
+}
+
+.lds-spinner div:nth-child(1) {
+    transform: rotate(0deg);
+    animation-delay: -1.1s;
+}
+
+.lds-spinner div:nth-child(2) {
+    transform: rotate(30deg);
+    animation-delay: -1s;
+}
+
+.lds-spinner div:nth-child(3) {
+    transform: rotate(60deg);
+    animation-delay: -0.9s;
+}
+
+.lds-spinner div:nth-child(4) {
+    transform: rotate(90deg);
+    animation-delay: -0.8s;
+}
+
+.lds-spinner div:nth-child(5) {
+    transform: rotate(120deg);
+    animation-delay: -0.7s;
+}
+
+.lds-spinner div:nth-child(6) {
+    transform: rotate(150deg);
+    animation-delay: -0.6s;
+}
+
+.lds-spinner div:nth-child(7) {
+    transform: rotate(180deg);
+    animation-delay: -0.5s;
+}
+
+.lds-spinner div:nth-child(8) {
+    transform: rotate(210deg);
+    animation-delay: -0.4s;
+}
+
+.lds-spinner div:nth-child(9) {
+    transform: rotate(240deg);
+    animation-delay: -0.3s;
+}
+
+.lds-spinner div:nth-child(10) {
+    transform: rotate(270deg);
+    animation-delay: -0.2s;
+}
+
+.lds-spinner div:nth-child(11) {
+    transform: rotate(300deg);
+    animation-delay: -0.1s;
+}
+
+.lds-spinner div:nth-child(12) {
+    transform: rotate(330deg);
+    animation-delay: 0s;
+}
+
+@keyframes lds-spinner {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+.detailCard {
+
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+}
+
+.carding {
+
+    height: 250px;
+    margin-left: -53px;
+}
+
+.img {
+    width: 117%;
+}
+
+.catalogSET {
+    margin-left: 36px;
+}
+
+.black_card {
+    margin-left: -20px;
+}
+
+.black_caard {
+    width: 700px;
+
+}
+
+.clothesdetails-div {
+    width: 800px;
+    margin-left: -460px;
+}
+
+.MOBILE-MENU {
+    display: none;
+}
+
+.Header {
+    background: linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%);
+}
+
+.header {
+    width: 1358px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 29px;
+    height: 60px;
+}
+
+.detailBTNs {
+    width: 20%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.stule_btn {
+    width: 80px;
+    height: 40px;
+}
+
+.stule {
+    border: solid #000000 2px;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.BTNLG {
+    margin-left: -78px;
+}
+
+.price {
+    font-size: 24px;
+
+}
+
+.aformit {
+    display: flex;
+    justify-content: center;
+}
+
+.inputBasket {
+    border: none;
+    background: transparent;
+    color: #bdc3c7;
+    width: 220px;
+    margin-left: 30px;
+}
+
+.footerTwo {
+    display: none;
+    height: 250px;
+}
+
+
+.table {
+    font-size: 24px;
+    margin-top: 25px;
+    color: white;
+}
+
+.tableName {
+    font-size: 15px;
+}
+
+.tableImg {
+    width: 50px;
+    height: 50px;
+
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    background: gray;
+    color: black;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -30px;
+    margin-left: 35px;
+}
+
+.footerH1 {
+    margin-left: 230px;
+}
+
+.Hooter {
+    background: linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%);
+
+}
+
+.sooda {
+    margin-left: 250px;
+}
+
+.navigate {
+    margin-left: 190px;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.title {
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 50px;
+}
+
+.svg {
+    position: absolute;
+    margin-top: -32px;
+    margin-left: -18px;
+    display: flex;
+    align-items: center;
+    width: 200px;
+}
+
+.path {
+    margin-left: 140px;
+}
+
+
+.set {
+    width: 500px;
+}
+
+.input {
+    color: white;
+    width: 583px;
+}
+
+.handle {
+    display: grid;
+    grid-template-columns: 1fr   1fr 1fr 1fr;
+}
+
+.header12 {
+    background: linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%);
+}
+
+.faq {
+    width: 571px;
+    height: 48px;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #72072D;
+}
+
+.span {
+    width: 1300px;
+    height: 2px;
+    background: #72072D;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.faq2 {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.faq__title {
+    width: 399px;
+    height: 29px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.faq__desc {
+    width: 1220px;
+    height: 79px;
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #72072D;
+}
+
+.sooda {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.price {
+    background: linear-gradient(270deg, #FF005C 0%, #72072D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+}
+
+.description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    color: #434343;
+}
+
+.wer {
+    color: white;
+    background: white;
+}
+
+.stule {
+    border: solid #000000 2px;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+    width: 75px;
+    height: 40px;
+}
+
+.stule:hover {
+    border: 3px solid #FF005C;
+    box-sizing: border-box;
+    color: #FF005C;
+}
+
+.basket-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.basket-card img {
+    width: 100%;
+    height: 268px;
+    object-fit: contain;
+}
+
+.basket-card h1 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #434343;
+    margin: 10px 0;
+}
+
+.req-card {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 20px;
+}
+
+.recCard {
+    margin: 20px;
+    background: rgba(158, 159, 161, 0.28);
+}
+
+
+.develop {
+    background: linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%);
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: white;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: start;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.loader {
+    pointer-events: none;
+    border: 3px solid transparent;
+    animation: an1 1s ease infinite;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border-top-color: white;
+
+}
+
+@keyframes an1 {
+    0% {
+        transform: rotate(0turn);
+    }
+    100% {
+        transform: rotate(1turn);
+    }
+}
+
+.lorem_footer {
+    width: 350px;
+    color: white;
+    font-size: 14px;
+}
+
+.black_card {
+    width: 450px;
+    height: 270px;
+}
+
+.img-div {
+    border: solid 1px gray;
+    width: 290px;
+    height: 260px;
+}
+
+.footer {
+    margin-left: -200px;
+}
+
+.detail-p {
+    width: 1100px;
+}
+
+.detail-img {
+    width: 400px;
+    height: 500px;
+}
+
+.detail-btn {
+    background: linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%);
+}
+
+.menuBlock {
+    display: none;
+}
+
+.footerMENU {
+    width: 768px;
+
+}
+
+.footerMENULOG {
+    width: 600px;
+    margin-left: 85px;
+}
+
+.livers {
+    padding: 4px;
+    margin-left: 33px;
+}
+
+.circle {
+    background: white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin-top: 1px;
+}
+
+.pLiver {
+    margin-left: -7px;
+}
+
+.SEARCH {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 50px;
+}
+
+.corzino {
+    margin-left: 249px;
+}
+
+.div-basket {
+    width: 500px;
+    margin-left: 270px;
+}
+
+.sever {
+    width: 435px;
+}
+
+.Hidden {
+    margin: 50px;
+}
+
+.req {
+    width: 1300px;
+}
+
+.rec-sliders {
+    margin: 50px 0;
+}
+
+.slick-slide img {
+    display: block;
+    margin-top: 25px;
+}
+
+.btn1 {
+    width: 210px;
+}
+
+.BTNLG {
+    margin-left: 20px;
+}
+
+.basketVictor {
+    width: 100%;
+}
+
+.basketGarbage {
+    margin-left: 1px;
+}
+
+.qerName {
+    width: 30%;
+    overflow: hidden;
+}
+
+.footerLOGS {
+    width: 130px;
+    height: 50px;
+}
+
+.div-about {
+    margin-left: 100px;
+}
+
+.ert {
+    background: linear-gradient(268.51deg, #FF005C 0.86%, #000000 150.38%);
+}
+
+.ert:focus {
+    background: #3BD821;
+}
+
+.PRODUCT {
+    align-items: center;
+    justify-content: center;
+    margin-left: 120px;
+    margin-top: 20px;
+    width: 1330px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.product {
+    width: 250px;
+    background: #bdc3c7;
+    margin: 20px;
+
+}
+
+.productLink {
+    margin-left: 25px;
+
+}
+
+.terProduct {
+    margin-top: 20px;
+}
+
+.nameProduct {
+    width: 200px;
+    height: 80px;
+    overflow: hidden;
+}
+
+.imgProduct {
+    width: 200px;
+    height: 300px;
+}
+
+.productBTN {
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-top: 50px;
+
+}
+.categoryBtn {
+    width: 147px;
+    height: 40px;
+    border: 1px solid #FF005C;
+    border-radius: 5px;
+}
+.basketH2IK{
+    margin-left: 50px;
+}
+.categoryBtn:hover {
+    background: #FF005C;
+    color: white;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        width: 90%;
+    }
+
+    .PRODUCT {
+        width: auto;
+        display: grid;
+        grid-template-columns:  1fr 1fr;
+    }
+
+    .circle {
+        margin-top: 0;
+    }
+
+    .header {
+        margin-left: 3px;
+        width: 106%;
+    }
+
+    .input {
+        width: 438px;
+    }
+
+    img, video {
+        max-width: 68%;
+    }
+
+    .req {
+        width: 100%;
+    }
+
+    .slick-slide img {
+        margin-left: 28px;
+    }
+
+    .catalogSET {
+        width: 107%;
+        margin-left: -39px;
+        overflow: hidden;
+    }
+
+    .detail-p {
+        width: 191%;
+    }
+
+    .handle {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+
+    .clothesdetails-div {
+        width: 90%;
+        margin-left: 9px;
+    }
+
+    .basketGarbage {
+        margin-left: -98px;
+    }
+
+    .lorem_footer {
+        width: 85%;
+    }
+
+    .corzino {
+        margin-left: 111px;
+    }
+
+    .div-basket {
+        margin-left: 167px;
+    }
+
+    .basketVictor {
+        width: 100%;
+        margin-left: 31px;
+    }
+
+    .footerLOGS {
+        width: 355px;
+    }
+    .basketH2IK {
+        margin-left: -15px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .header {
+        margin-left: -4px;
+        width: 126%;
+    }
+
+    .footer {
+
+    }
+
+    .catalogSET {
+        width: 126%;
+        margin-left: -109px;
+    }
+
+    .detail-p {
+        width: 189%;
+    }
+
+    .handle {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+
+    .lorem_footer {
+        width: 82%;
+    }
+
+    .footerMB {
+        margin-left: 3px;
+    }
+
+    .corzino {
+        margin-left: 244px;
+    }
+
+    .basketGarbage {
+        margin-left: -49px;
+    }
+
+    .div-basket {
+        margin-left: 16px;
+    }
+    .basketH2IK {
+        margin-left: -155px;
+    }
+    .req {
+        width: 124%;
+        margin-left: -97px;
+    }
+
+    .detail-img {
+        margin-left: -20px;
+    }
+
+    .basketVictor {
+        width: 160%;
+        margin-left: -163px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .description {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .productBTN {
+        width: auto;
+        margin-left: 72px;
+    }
+
+    .product {
+        width: 93%;
+    }
+
+    .input {
+        margin-left: 152px;
+    }
+
+    .inputHed {
+        background: #FF005C;
+        border-radius: 5px;
+        color: white;
+    }
+
+    .header {
+        margin-left: 11px;
+        width: 56%;
+    }
+
+    .Header {
+        background: white;
+    }
+
+    .clothesdetails-div {
+        width: 100%;
+        margin-left: 9px;
+    }
+
+    .slick-slide img {
+        margin-left: 22px;
+        margin-top: -50px;
+    }
+
+    .menuBlock {
+        display: block;
+        position: fixed;
+        background: #FF005C;
+        height: 60px;
+    }
+
+    .menuBlocks {
+        margin-left: -1px;
+    }
+
+    .footerTwo {
+        display: block;
+        margin-left: 42px;
+    }
+
+    .header-log {
+        display: none;
+    }
+
+    .Hidden {
+        display: none;
+    }
+
+    .footerOne {
+        display: none;
+    }
+
+    .catalogSET {
+        width: 113%;
+        margin-left: -49px;
+    }
+
+    .black_caard {
+        width: 539px;
+    }
+
+    .detail-p {
+        width: 199%;
+    }
+
+    .handle {
+        display: grid;
+        grid-template-columns: 1fr   1fr;
+        margin-left: 38px;
+    }
+
+    .detail-img {
+        width: 100%;
+        height: 429px;
+        margin-left: -14px;
+    }
+
+    .lorem_footer {
+        width: 85%;
+    }
+
+    .footerMB {
+
+        margin-left: 5px;
+    }
+
+    .corzino {
+        width: 100%;
+        margin-left: 38px;
+    }
+
+    .basketGarbage {
+        margin-left: -44px;
+    }
+    .basketH2IK {
+        margin-left: -23px;
+    }
+    .div-basket {
+        margin-left: 106px;
+    }
+
+    .req {
+        width: 101%;
+        margin-left: -19px;
+    }
+
+    .birka {
+        margin-left: 232px;
+    }
+
+    .circle {
+        margin-top: -20px;
+        margin-left: 35px;
+    }
+
+    .basketVictor {
+        width: 112%;
+        margin-left: -44px;
+    }
+
+    .Porque {
+        width: auto;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .productBTN {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 130px;
+    }
+
+    .categoryBtn {
+        width: 131px;
+        margin: 10px;
+        height: 36px;
+    }
+
+    .p-about {
+        width: 102%;
+        margin-left: 48px;
+    }
+
+    .slick-slide img {
+        margin-left: 22px;
+        margin-top: 27px;
+    }
+
+    .footerMENULOG {
+        width: 74%;
+    }
+
+    .footerMENU {
+        width: 98%;
+    }
+
+    .menuBlocks {
+        margin-left: 29px;
+    }
+
+    .input {
+        margin-left: 55px;
+    }
+
+    .footerTwo {
+        margin-left: 69px;
+    }
+
+    .birka {
+        margin-left: 102px;
+    }
+
+    .description {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .catalogSET {
+        width: 130%;
+        margin-left: -59px;
+    }
+
+    .carding {
+        height: 216px;
+        margin-left: -16px;
+    }
+
+    img, video {
+        max-width: 84%;
+    }
+
+    .req {
+        width: 92%;
+        margin-left: 27px;
+    }
+
+
+    .corzino {
+        margin-left: 73px;
+    }
+
+    .div-basket {
+        margin-left: -38px;
+    }
+
+    .basketGarbage {
+        margin-left: -113px;
+        width: 145%;
+    }
+
+    .handle {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 108px;
+    }
+
+    .basketVictor {
+        width: 102%;
+        margin-left: -8px;
+    }
+}
+
+@media (max-width: 450px) {
+    .input {
+        margin-left: -12px;
+    }
+
+    .catalogSET {
+        width: 123%;
+        margin-left: -77px;
+    }
+
+    .black_caard {
+        width: 488px;
+    }
+
+    .carding {
+        margin-left: 10px;
+    }
+
+    .productBTN {
+        margin-left: 62px;
+    }
+
+    .PRODUCT {
+        width: 400px;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 21px;
+    }
+
+    .p-about {
+        width: 95%;
+    }
+
+    .req {
+        width: 88%;
+        margin-left: 22px;
+    }
+
+    .footerTwo {
+        margin-left: 50px;
+    }
+
+    .div-about {
+        margin-left: 40px;
+    }
+    .div-basket {
+        width: 320px;
+        margin-left: 33px;
+    }
+    .sever{
+        width: 260px;
+    }
+    .corzino {
+        margin-left: 37px;
+    }
+
+    .basketGarbage {
+        margin-left: -90px;
+        width: 125%;
+    }
+
+    .detail-img {
+        height: 252px;
+    }
+
+    .description {
+        font-size: 20px;
+
+    }
+
+    .stule {
+        width: 40px;
+        height: 30px;
+    }
+
+    .handle {
+        margin-left: 38px;
+    }
+
+    .btn1 {
+        width: 99%;
+    }
+
+    .footerMENULOG {
+        margin-left: 69px;
+    }
+
+    .detailBTNs {
+        width: 20%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .clothesdetails-div {
+        margin-left: 0;
+    }
+
+    .qer {
+        width: 7%;
+        font-size: 10px;
+    }
+
+    .qerQuantity {
+        width: 5%;
+        position: absolute;
+        margin-left: -37px;
+        margin-top: -8px;
+    }
+
+    .qerQuantitys {
+        width: 5%;
+        position: absolute;
+        margin-left: -43px;
+    }
+
+    .basketVictor {
+        width: 101%;
+        margin-left: -8px;
+    }
+
+    .footerTwo {
+        margin-left: 24px;
+    }
+
+    .birka {
+        margin-left: 88px;
+    }
+}
+
+@media (max-width: 425px) {
+    .input {
+        width: 192%;
+        margin-left: 9px;
+    }
+
+    .catalogSET {
+        width: 123%;
+        margin-top: -41px;
+        margin-left: -71px;
+    }
+
+    .PRODUCT {
+        margin-left: 5px;
+    }
+
+    .priceNIK {
+        font-size: 25px;
+    }
+
+    .carding {
+        height: 100%;
+        margin-left: 10px;
+    }
+
+    .footerMENULOG {
+        margin-left: 68px;
+    }
+
+    .div-basket {
+        margin-left: 25px;
+    }
+
+    .black_caard {
+        width: 438px;
+    }
+
+    .circle {
+        margin-left: 45px;
+    }
+
+    .detailCard {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .btn1 {
+        width: 77%;
+    }
+
+    .bayBtn {
+        margin-left: 75px;
+    }
+
+    .stule {
+        width: 56px;
+    }
+
+    .detail-p {
+        width: 107%;
+    }
+
+    .corzino {
+        margin-left: 33px;
+    }
+
+    .basketVictor {
+        width: 91%;
+        overflow: hidden;
+        margin-left: 30px;
+    }
+
+    .qerQuantity {
+        width: 5%;
+        position: absolute;
+        margin-left: -121px;
+        margin-top: 15px;
+    }
+
+    .qerQuantitys {
+        display: none;
+    }
+
+    .container {
+        width: 86%;
+    }
+
+    .footerTwo {
+        margin-left: 30px;
+    }
+
+    .align-middle {
+        width: 425px;
+    }
+
+    .birka {
+        margin-left: 69px;
+    }
+
+    .div-about {
+        width: 350px;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 414px) {
+    .catalogSET {
+        margin-left: -76px;
+        width: 126%;
+    }
+
+    .title {
+        position: absolute;
+        margin-top: -2px;
+        margin-left: 150px;
+    }
+
+    .corzino {
+        margin-left: 28px;
+    }
+
+    .description {
+        font-size: 20px;
+        height: 19%;
+        overflow: hidden;
+    }
+
+    .handle {
+        margin-left: 20px;
+    }
+
+    .footerTwo {
+        margin-left: 29px;
+    }
+
+    .opisaniy {
+        margin-top: 90px;
+    }
+}
+
+@media (max-width: 400px) {
+    .input {
+        width: 182%;
+    }
+
+    .catalogSET {
+        margin-left: -89px;
+        width: 131%;
+    }
+
+    .PRODUCT {
+        margin-left: -8px;
+    }
+
+    .PRODUCT {
+        width: 360px;
+        margin-left: 2px;
+    }
+
+    .slick-slide img {
+        margin-left: 22px;
+        margin-top: 23px;
+    }
+
+    .btn1 {
+        width: 79%;
+    }
+
+    .div-basket {
+        margin-left: 22px;
+    }
+
+    .corzino {
+        margin-left: 19px;
+    }
+
+    .bayBtn {
+        margin-left: 54px;
+    }
+
+    .birka {
+        margin-left: 55px;
+    }
+
+    .align-middle {
+        width: 413px;
+    }
+
+    .basketVictor {
+        margin-left: 37px;
+    }
+    .qer {
+        font-weight: 100;
+        font-size: 8px;
+        line-height: 14px;
+    }
+}
+
+@media (max-width: 380px) {
+    .catalogSET {
+        margin-left: -93px;
+        width: 131%;
+    }
+
+    .carding {
+        height: 96%;
+        margin-left: 13px;
+    }
+
+    .productBTN {
+        display: flex;
+        margin-left: 34px;
+    }
+
+    .categoryBtn {
+        width: 75px;
+        margin: 1px;
+        font-size: 11px;
+        height: 36px;
+    }
+
+    .corzino {
+        margin-left: 58px;
+        width: 80%;
+    }
+
+    .div-basket {
+        margin-left: -25px;
+    }
+
+    .handle {
+        margin-left: 6px;
+    }
+
+    .footerMENULOG {
+        margin-left: 62px;
+    }
+
+    .bayBtn {
+        margin-left: 43px;
+    }
+
+    .basketVictor {
+        margin-left: 29px;
+    }
+
+    .align-middle {
+        width: 403px;
+        overflow: hidden;
+        margin-left: -34px;
+    }
+
+    .nameWho {
+        height: 20px;
+        line-height: 10px;
+        overflow: hidden;
+    }
+
+    .birka {
+        margin-left: 50px;
+    }
+
+    .div-about {
+        width: 339px;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 375px) {
+    .align-middle {
+        margin-left: -66px;
+    }
+
+    .qer {
+        width: 0;
+        font-size: 7px;
+    }
+
+    .basketVictor {
+        margin-left: 71px;
+    }
+
+    .div-about {
+        width: 320px;
+        margin-left: 36px;
+    }
+}
+
+@media (max-width: 360px) {
+    .input {
+        margin-left: 4px;
+    }
+
+    .product {
+        width: 89%;
+    }
+
+    .footerTwo {
+        margin-left: 19px;
+    }
+
+    .birka {
+        margin-left: 39px;
+    }
+
+    .div-basket {
+        margin-left: -41px;
+    }
+
+    .corzino {
+        margin-left: 49px;
+    }
+
+    .description {
+        height: 18%;
+    }
+
+    .footerMENULOG {
+        margin-left: 57px;
+    }
+
+    .title {
+        margin-left: 143px;
+    }
+
+    .req-card {
+        font-weight: bold;
+        font-size: 24px;
+        margin: 20px;
+    }
+
+    .path {
+        margin-left: 97px;
+    }
+
+    .carding {
+        height: 150px;
+    }
+
+    .bayBtn {
+        margin-left: 31px;
+    }
+
+    .btn1 {
+        width: 83%;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .catalogSET {
+        margin-left: -96px;
+        width: 140%;
+    }
+
+    .carding {
+        height: 139px;
+    }
+
+    .productBTN {
+        margin-left: 11px;
+    }
+
+    .PRODUCT {
+        width: 300px;
+        margin-left: 6px;
+    }
+
+    .categoryBtn {
+        width: 68px;
+        margin: 4px;
+    }
+
+    .title {
+        margin-left: 124px;
+    }
+
+    .path {
+        margin-left: 97px;
+    }
+
+    .svg {
+        width: 179px;
+    }
+
+    .birka {
+        margin-left: 22px;
+    }
+
+    .div-about {
+        margin-left: 8px;
+        width: 310px;
+    }
+
+    .contactAbout {
+        margin-left: 1%;
+    }
+
+    .contactAbout {
+        margin-left: 7%;
+    }
+
+    .bayBtn {
+        margin-left: 12px;
+    }
+
+    .btn1 {
+        width: 90%;
+    }
+
+    .basketVictor {
+        margin-left: 41px;
+        overflow: hidden;
+    }
+
+    .align-middle {
+        width: 381px;
+        margin-left: -66px;
+    }
+
+    .description {
+        height: 20%;
+    }
+
+    .slick-slide img {
+        margin-left: 15px;
+        margin-top: 23px;
+    }
+
+}
+
+.hideMenuNav {
+    display: none;
+}
+
+.showMenuNav {
+    display: block;
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    background: white;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+
